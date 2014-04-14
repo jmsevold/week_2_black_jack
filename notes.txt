@@ -1,0 +1,11 @@
+Changes made:
+1. Take the free-floating code relating to the dealing, and place it inside the Deck Class.
+	-Put the code from the unique_cards method and deck creation into the initialize method of the Deck class
+
+2. Create a game class which creates the game objects, and starts the game. Takr the lines of code which did this, and place them inside this class.
+
+3. Take player methods win_or_bust, hit_or_stay, player_wins, player_busts, and place inside player class. 
+
+4. Create a dealer class which extends player class, and place custom dealer methods inside.
+
+5. For all above changes, the method calls must be modified everywhere they appear. For exammple, win_or_bust becomes player.win_or_bust, and so on and so forth
